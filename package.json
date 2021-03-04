@@ -1,0 +1,16 @@
+{
+  "name": "yarn_repro_install_vs_add",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/voskresla/yarn_repro_install_vs_add.git",
+  "author": "Stepan Polevshchikov <spolevshchikov@ozon.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "@gitbeaker/node": "^28.0.4",
+    "local-package": "file:local-package"
+  },
+  "workspaces": [
+    "local-package"
+  ]
+}
